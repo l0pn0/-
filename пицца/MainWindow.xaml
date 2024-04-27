@@ -1,0 +1,21 @@
+﻿<Window x:Class="пицца.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:пицца"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top" Height="46" Width="55" Click="Button_Click"/>
+        <Button Content="Удалить" HorizontalAlignment="Left" Height="46" Margin="38,243,0,0" VerticalAlignment="Top" Width="170" Click="Button_Click_4"/>
+        <ListBox x:Name="pizzasList" HorizontalAlignment="Left" Height="130" Margin="400,103,0,0" VerticalAlignment="Top" Width="345"/>
+
+        <Image HorizontalAlignment="Left" Source="https://nightcity24.ru/d/picca_pepperoni.jpg" Height="68" Margin="36,38,0,0" VerticalAlignment="Top" Width="68"/>
+        <Image HorizontalAlignment="Left" Height="63" Source="https://windowman.ru/wp-content/uploads/1/1/9/11998e1c8cae468b4e3ebfa480231371.jpeg" Margin="131,38,0,0" VerticalAlignment="Top" Width="63"/>
+        <Image HorizontalAlignment="Left" Height="63" Source="https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663621569_40-mykaleidoscope-ru-p-pitstsa-pepperoni-yeda-vkontakte-43.jpg" Margin="255,38,0,0" VerticalAlignment="Top" Width="72"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="46" Margin="153,134,0,0" VerticalAlignment="Top" Width="50" Click="Button_Click_2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="46" Margin="293,134,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click_3"/>
+        <TextBox x:Name="TotPrice" HorizontalAlignment="Left" Margin="310,334,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>
